@@ -85,6 +85,10 @@ a:hover{
 	font-size: 2.5em;
 }
 
+.header_greet {
+	padding-right: 10px;
+}
+
 
 /* FORMS */
 
@@ -451,6 +455,14 @@ table a{
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 1260px)
+{
+	#container
+	{
+		grid-row-gap: 75px;
+	}
+}
+
 @media screen and (max-width: 1260px)
 {
 	#container
@@ -458,7 +470,7 @@ table a{
 		align-items: stretch;
 		display: grid;
 		grid-column-gap: 10px;
-		grid-row-gap: 0px;
+		grid-row-gap: 20px;
 		grid-template-columns: 1fr;
 		grid-template-rows: 80px auto;
 		justify-items: stretch;
@@ -544,5 +556,25 @@ table a{
 		grid-row-gap: 0px;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto;
+	}
+}
+
+@media screen and (max-width: 460px)
+{
+	
+	#container{
+		align-items: stretch;
+		display: grid;
+		grid-column-gap: 20px;
+		grid-row-gap: 80px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 80px auto;
+		justify-items: stretch;
+		margin-bottom: 1vh;
+		width: 90%;
+	}
+	
+	#header_greet{
+		width: 400px;
 	}
 }
