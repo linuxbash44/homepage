@@ -50,7 +50,9 @@
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
-                            <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            <div style="display: flex;">
+                                <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            </div>
                         {{/links}}
                     </div>
                 {{/bookmarks}}
