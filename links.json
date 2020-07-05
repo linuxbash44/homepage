@@ -6,6 +6,10 @@
           {
             "name": "iCloud",
             "url": "https://icloud.com"
+          },
+          {
+            "name": "File.io",
+            "url": "https://file.io"
           }
         ]
       },

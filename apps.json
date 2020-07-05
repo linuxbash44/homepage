@@ -1,6 +1,7 @@
 {
     "apps" : [
         {"name":"Code","url":"code.matanmashraki.com","icon":"microsoft-visual-studio-code"},
+        {"name":"Git","url":"git.matanmashraki.com","icon":"git"},
         {"name":"Mail","url":"mail.matanmashraki.com/mail","icon":"email"},
         {"name":"Video","url":"video.matanmashraki.com","icon":"filmstrip"},
         {"name":"Alltube","url":"alltube.matanmashraki.com","icon":"cloud-download"},

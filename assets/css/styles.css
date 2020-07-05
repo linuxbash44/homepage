@@ -3,6 +3,7 @@ html{
 	moz-box-sizing: border-box;
 	webkit-box-sizing: border-box;
 	webkit-text-size-adjust: none;
+	overflow-y: hidden;
 }
 
 html,
@@ -584,6 +585,6 @@ table a{
 	}
 	
 	#header_greet{
-		width: 400px;
+		width: 200px;
 	}
 }
