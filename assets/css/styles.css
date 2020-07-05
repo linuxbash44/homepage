@@ -228,6 +228,15 @@ table a{
 	margin: 0;
 }
 
+.apps_item_content{
+	display: flex;
+	cursor: pointer;
+}
+
+.apps_item_content:hover{
+	text-decoration: underline;
+}
+
 .apps_text{
 	display: flex;
 	flex-direction: column;

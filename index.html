@@ -28,11 +28,13 @@
             <div id="apps_loop">
                 {{#apps}}
                     <div class="apps_item">
-                        <div class="apps_icon">
-                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
-                        </div>
-                        <div class="apps_text">
-                            <a href="https://{{url}}">{{name}}</a>
+                        <div class="apps_item_content" onclick="window.location='https://{{url}}';">
+                            <div class="apps_icon">
+                                <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                            </div>
+                            <div class="apps_text">
+                                <p>{{name}}</p>
+                            </div>
                         </div>
                     </div>
                 {{/apps}}                         
