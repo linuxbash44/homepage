@@ -8,6 +8,10 @@
             "url": "https://icloud.com"
           },
           {
+            "name": "Sendy",
+            "url": "https://beta.sendy.app"
+          },
+          {
             "name": "File.io",
             "url": "https://file.io"
           }
