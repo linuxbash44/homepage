@@ -1,12 +1,12 @@
 {
     "apps" : [
         {"name":"Code","url":"code.matanmashraki.com","icon":"microsoft-visual-studio-code"},
-        {"name":"Git","url":"git.matanmashraki.com","icon":"git"},
+        {"name":"Cloud","url":"cloud.matanmashraki.com","icon":"cloud"},
         {"name":"Mail","url":"mail.matanmashraki.com/mail","icon":"email"},
+        {"name":"Git","url":"git.matanmashraki.com","icon":"git"},
         {"name":"Video","url":"video.matanmashraki.com","icon":"filmstrip"},
         {"name":"Alltube","url":"alltube.matanmashraki.com","icon":"cloud-download"},
         {"name":"RSS","url":"rss.matanmashraki.com","icon":"rss"},
-        {"name":"Torrent","url":"down.matanmashraki.com","icon":"arrow-down-circle-outline"},
         {"name":"Shlink","url":"link.matanmashraki.com","icon":"link-variant"}
     ]
 }
