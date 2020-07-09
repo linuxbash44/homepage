@@ -3,7 +3,6 @@ html{
 	moz-box-sizing: border-box;
 	webkit-box-sizing: border-box;
 	webkit-text-size-adjust: none;
-	overflow-y: hidden;
 }
 
 html,
@@ -18,7 +17,8 @@ body{
 	margin: 0;
 	padding: 0;
 	webkit-font-smoothing: antialiased;
-	width: 100vw;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 *,
@@ -585,6 +585,6 @@ table a{
 	}
 	
 	#header_greet{
-		width: 200px;
+		width: 320px;
 	}
 }
