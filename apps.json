@@ -7,6 +7,7 @@
         {"name":"Video","url":"video.matanmashraki.com","icon":"filmstrip"},
         {"name":"Alltube","url":"alltube.matanmashraki.com","icon":"cloud-download"},
         {"name":"RSS","url":"rss.matanmashraki.com","icon":"rss"},
-        {"name":"Shlink","url":"link.matanmashraki.com","icon":"link-variant"}
+        {"name":"Shlink","url":"link.matanmashraki.com","icon":"link-variant"},
+        {"name":"Downloads","url":"down.matanmashraki.com","icon":"download"}
     ]
 }

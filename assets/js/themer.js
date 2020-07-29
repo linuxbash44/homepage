@@ -20,6 +20,8 @@ const setTheme = options => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    const statusBar = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? "black-translucent" : "default"
+    const theme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? "#242B33" : "#F2F7FF"
     const lightTheme = () => setTheme({
         'color-background': '#F2F7FF',
         'color-text-pri': '#000000',
@@ -32,6 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     const changeTheme = () => {
         window.matchMedia('(prefers-color-scheme: dark)').matches ?  darkTheme() : lightTheme()
+        document.getElementById("theme").setAttribute("content", theme())
+        document.getElementById("status-bar").setAttribute("content", statusBar())
     }
     changeTheme()
     window.matchMedia('(prefers-color-scheme: dark)').addListener(() => {

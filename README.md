@@ -1,4 +1,4 @@
-## SUI
+## Matan Home
 *a startpage for your server and / or new tab page*
 
 ![screenshot](https://i.imgur.com/ps5Fmg7.png)

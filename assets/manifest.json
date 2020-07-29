@@ -1,0 +1,28 @@
+{
+    "name": "Matan Home",
+    "short_name": "Matan Home",
+    "icons": [
+        {
+            "src": "/assets/icon/favicon.png",
+            "sizes": "64x64",
+            "type": "image/x-icon",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/icon/maskable-icon512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/assets/icon/any-icon192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#F2F7FF",
+    "background_color": "#F2F7FF"
+}
