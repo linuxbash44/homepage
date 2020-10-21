@@ -44,6 +44,10 @@
           {
             "name": "YouTube",
             "url": "https://youtube.com/feed/subscriptions"
+          },
+          {
+            "name": "Spotify",
+            "url": "https://open.spotify.com"
           }
         ]
       },

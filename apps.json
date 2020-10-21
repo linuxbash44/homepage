@@ -8,6 +8,9 @@
         {"name":"Alltube","url":"alltube.matanmashraki.com","icon":"cloud-download"},
         {"name":"RSS","url":"rss.matanmashraki.com","icon":"rss"},
         {"name":"Shlink","url":"link.matanmashraki.com","icon":"link-variant"},
-        {"name":"Downloads","url":"down.matanmashraki.com","icon":"download"}
+        {"name":"Downloads","url":"down.matanmashraki.com","icon":"download"},
+        {"name":"Drop","url":"drop.matanmashraki.com","icon":"access-point"},
+        {"name":"NotifyBot","url":"notify.matanmashraki.com","icon":"telegram"},
+        {"name":"n8n","url":"n8n.matanmashraki.com","icon":"source-branch"}
     ]
 }
